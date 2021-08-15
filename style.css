@@ -1,0 +1,48 @@
+#logo-div {
+  display: flex;
+  justify-content: center;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+}
+
+#icon {
+  display: inline-block;
+}
+
+li {
+  list-style: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+#left-side {
+  float: left;
+}
+
+#right-side {
+  float: right;
+  vertical-align: middle;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(229, 229, 229);
+}
+
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+}
